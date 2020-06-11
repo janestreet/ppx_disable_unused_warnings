@@ -2,7 +2,7 @@ open Base
 open Ppxlib
 open Ast_builder.Default
 
-let disabled_warnings = "-20-26-32-33-34-35-36-37-38-39-60-66-67"
+let disabled_warnings = "-26-27-32-33-34-35-36-37-38-39-60-66-67"
 let payload ~loc = PStr [ pstr_eval ~loc (estring ~loc disabled_warnings) [] ]
 
 let expand_disabled_unused_warnings_attribute attr =
