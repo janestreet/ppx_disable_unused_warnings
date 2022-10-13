@@ -8,4 +8,4 @@ let[@disable_unused_warnings] succ x = x + 1
 let pred x = x - 1 [@@disable_unused_warnings]
 
 (* Make sure other attributes are left untouched *)
-let[@disable_unused_warnings] id x = (x [@ocaml.warning "-8"])
+let[@disable_unused_warnings] id x = x [@ocaml.warning "-8"]
