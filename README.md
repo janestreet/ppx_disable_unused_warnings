@@ -12,5 +12,5 @@ used at all three annotation scopes:
 
 As of OCaml 4.10, it translates `[@disable_unused_warnings]` to:
 
-  `[@@@warning "-26-27-32-33-34-35-36-37-38-39-60-66-67]`
+  `[@@@warning "-26-27-32-33-34-35-36-37-38-39-60-66-67"]`
 
