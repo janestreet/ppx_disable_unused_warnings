@@ -11,9 +11,8 @@ build: [
 ]
 depends: [
   "ocaml" {>= "5.1.0"}
-  "base"
   "dune"   {>= "3.17.0"}
-  "ppxlib" {= "0.33.0+jst"}
+  "ppxlib" {= "0.33.0+ox"}
 ]
 available: arch != "arm32" & arch != "x86_32"
 synopsis: "Expands [@disable_unused_warnings] into [@warning \"-20-26-32-33-34-35-36-37-38-39-60-66-67\"]"
